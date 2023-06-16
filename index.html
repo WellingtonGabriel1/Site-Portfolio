@@ -4,6 +4,7 @@
         <head>
             <title>Wellington Gabriel</title>
             <link rel="stylesheet" href="styles.css" />
+            <script src="index.js"></script>
         </head>
     </head>
     <body>
@@ -13,11 +14,11 @@
                     <div class="barra-navegacao">
                         <h2 class="titulo-navegacao">Wellington Gabriel</h2>
                         <div>
-                            <a class="links-navegacao">Habilidades</a>
-                            <a class="links-navegacao">Portfólio</a>
-                            <a class="links-navegacao">Experiências</a>
+                            <a onclick="onClickScrollTo('section-abilities')" class="links-navegacao">Habilidades</a>
+                            <a onclick="onClickScrollTo('section-portfolio')" class="links-navegacao">Portfólio</a>
+                            <a onclick="onClickScrollTo('section-experiences')" class="links-navegacao">Experiências</a>
                         </div>
-                        <button>CONTATO</button>
+                        <button onclick="onClickScrollTo('section-contact')" >CONTATO</button>
                         </div>
                         <div class="hero-info">
                             <div>
@@ -25,7 +26,7 @@
                                     Sou o Wellington Gabriel.</h1>
                                     <p class="hero-info-subtitle">Estudante de programação desde 2023,
                                     com foco em desenvolvimento web.</p>
-                                    <button>ENTRAR EM CONTATO</button>
+                                    <button onclick="onClickScrollTo('section-contact')" >ENTRAR EM CONTATO</button>
                                     <div class="hero-info-icons-container" >
                                         <a>
                                         <img class="hero-info-icons-image" src="Icons/Github.png" alt="Imagem Github" />
@@ -43,7 +44,7 @@
                             </div>
                         </div>
                 </section>
-                <section class="section-abilities">
+                <section class="section-abilities" id="section-abilities">
                     <h2>Habilidades</h2>
                     <h2 class="verde">que domino.</h2>
                     <div class="abilities-cards-container">
@@ -111,7 +112,7 @@
                       </div>
                     </div>
                 </section>
-                <section class="section-portfolio">
+                <section class="section-portfolio" id="section-portfolio">
                     <h2>Portfólio</h2>
                     <h2 class="verde">de Projetos.</h2>
                     <div class="section-portfolio-grid">
@@ -156,7 +157,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="section-experiences">
+                <section class="section-experiences" id="section-experiences">
                     <h2>Experiências</h2>
                     <h2 class="verde">profissionais.</h2>
                     <div class="section-experiences-card">
@@ -176,7 +177,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="section-contact">
+                <section class="section-contact" id="section-contact">
                     <h2>Como</h2>
                     <h2 class="verde">posso te ajudar?</h2>
                     <p>Estou a disposição para ajudar o seu projeto ou sua empresa.</p>
