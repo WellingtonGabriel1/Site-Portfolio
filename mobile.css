@@ -1,0 +1,100 @@
+@media only screen and (max-device-width: 450px){
+
+    button {
+        height: 68px;
+        font-size: 26px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .content-container {
+        width: 96vw;
+        max-width: 96vh;
+    }
+
+    .barra-navegacao {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .titulo-navegacao {
+        font-size: 32px;
+    }
+
+    .links-navegacao {
+        display: none;
+    }
+
+    .section-hero{
+        height: 50vh;
+        padding-bottom: 48px;
+    }
+
+    .hero-info-title {
+        font-size: 56px;
+        margin-top: 15px;
+    }
+
+    .hero-info-subtitle {
+        font-size: 32px;
+        line-height: 36px;
+        max-width: 70%;
+    }
+
+    .hero-info-text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero-info {
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding-top: 156px;
+    }
+
+    .abilities-cards-container {
+        row-gap: 36px;
+        grid-template-columns: auto auto;
+        margin-top: 12px;
+    }
+
+    .section-portfolio-grid {
+        row-gap: 36px;
+        grid-template-columns: auto auto;
+        margin-top: 24px;
+    }
+    
+    .section-experiences-card {
+        width: 90vw;
+    }
+
+    .footer-content {
+        width: 100%;
+    }
+
+    .hero-info-image {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    .hero-info-icons-image {
+        height: 56px;
+        width: 56px;
+    }
+
+    .hero-info-instagram {
+        width: 68px;
+        height: 68px;
+    }
+
+    .hero-info-icons-container {
+        margin-top: 45px;
+        width: 60%;
+    }
+}
