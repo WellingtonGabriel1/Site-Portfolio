@@ -21,6 +21,14 @@
         margin: 0px;
     }
 
+    p {
+        font-size: 22px;
+    }
+
+    a {
+        font-size: 25px;
+    }
+
     p.card {
         font-size: 18px;
         margin-top: 8px;
@@ -124,7 +132,13 @@
     }
     
     .section-experiences-card {
-        width: 90vw;
+        width: 94%;
+        margin-top: 40px;
+    }
+
+    .section-contact {
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 
     .footer-content {
