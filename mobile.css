@@ -104,7 +104,23 @@
     .section-portfolio-grid {
         row-gap: 36px;
         grid-template-columns: auto auto;
-        margin-top: 24px;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+
+    .section-portfolio-card-links-icon-image {
+        width: 28px;
+        height: 28px;
+    }
+
+    .section-portifolio-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 46vw;
+        height: auto;
+        padding: 24px 0px;
     }
     
     .section-experiences-card {
