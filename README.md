@@ -7,6 +7,10 @@ In order to create a website with my information.
 
 <img src="https://github.com/WellingtonGabriel1/Site-Portfolio/blob/main/Preview%20Portfolio.png" height="500"/>
 
+## Live link
+
+https://wellingtongabriel1.github.io./Site-Portfolio/
+
 ## Main concepts applied 
 
 - Flexbox
