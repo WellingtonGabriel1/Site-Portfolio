@@ -13,3 +13,24 @@ In order to create a website with my information.
 - DOM manipulation
 - Events
 - CSS Media Query
+
+
+## Instructions to run: 
+1. Clone the project
+
+```
+git clone https://github.com/WellingtonGabriel1/Site-Portfolio.git
+```
+
+2. After clone open the folder: 
+
+```
+Site-Portfolio
+```
+
+3. Open the index file with the browser:
+
+```
+index.hmtl
+```
+
